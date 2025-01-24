@@ -1,13 +1,20 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./FunCompo/Navbar.js";
-import Tab from "./FunCompo/Tab.js";
+import SPS from "./FunCompo/SPS";
+// import { ClassUse } from "./ClassCompo/ClassUse";
+// import ClassCom from "./ClassCompo/ClassCom";
+// import Input from "./FunCompo/Input";
+// import Navbar from "./FunCompo/Navbar";
+// import Tab from "./FunCompo/Tab";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Tab />
+      {/* <Navbar />
+      <Tab /> */}
+      {/* <Input /> */}
+      {/* <ClassCom /> */}
+      {/* <ClassUse /> */}
+      <SPS />
     </>
   );
 }
